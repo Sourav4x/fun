@@ -53,3 +53,22 @@ body {
     font-size: 1.2em;
     margin-top: 20px;
   }
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 20px; /* Reduce margin on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjust heading size for smaller screens */
+  }
+
+  p {
+    font-size: 1em; /* Adjust paragraph size for smaller screens */
+  }
+
+  #accept-button,
+  #reject-button {
+    padding: 8px 16px; /* Further reduce padding for very small screens */
+    font-size: 12px; /* Adjust font size for very small screens */
+  }
+}
